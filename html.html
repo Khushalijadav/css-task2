@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px; 
+        }
+
+.row:after {
+            content: "";
+            display: table;
+            clear: both;
+           }
+.btn{
+     text-align: left;
+     border-radius: 12px;
+     background-color: #f1f1f1;
+     height: 45px;
+     width: 800px; ;
+     border: none;
+    }
+.flex-container {
+                 display: flex;
+                 text-align: center;
+              }
+.name{
+       border-radius: 12px;
+       background-color: lightgray;
+     }
+select{ background-color: hsl(0, 0%, 95%);
+        border-radius: 12PX;
+        height: 45PX;
+        width: 800PX;
+     }
+    </style>
+</head>
+<body>
+    
+<div class="row">
+    <div class="column" >
+      <h1>About you</h1>
+      <p class="1">personal info</p>
+      <p class="2">provide your personal info</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p class="1">Professional info</p>
+      <p class="2">provide your Professional info</p>
+    </div>
+      <br>
+      <br>
+    <div class="column" >
+    
+      <div class="btn"><p>organization</p><p>fintory</p></button>
+       </div> <br><br>
+
+      <div class="flex-container">
+           <div class="selectWrapper">
+             <select class="selectbox">
+                <option>ms</option>
+                <option>mr</option>
+             </select>
+           </div>&nbsp;&nbsp;
+           <div> <button class="#name">First name*</p><p>Diana</p></button></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div> <button class="#name">Last name*</p><p>Diana</p></button></div>
+          </div><br><br><br>
+          <div class="row">
+         <div>
+              <select class="select"><option> German</option>
+                 <option>English</option>
+                </select>
+          </div>
+          <div>
+              <select class="select">
+                                    <option> freelancer</option>
+                                    <option>Devloper</option>
+              </select>
+          </div> <br><br>
+              <div class="btn"><p>Profession</p></div><br><br>
+                  <div>
+                     <select class="select">
+                                      <option> Proficiency level</option>
+                                      <option>1%</option>
+                                      <option>2%</option>
+                     </select>
+                  </div>
+             </div> 
+            </div>
+        
+    </div> 
+        </div>
+
+    </div>
+        
+   
+   
+
+
+</body>
+</html>
